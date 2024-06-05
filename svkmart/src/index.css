@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Poppins:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+.playfair-display sc-regular {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display sc-bold {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+  */
+  
+.navbar{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px -19px 13px 17px rgba(0,0,0,0.52);
+-webkit-box-shadow: 0px -19px 13px 17px rgba(0,0,0,0.52);
+-moz-box-shadow: 0px -19px 13px 17px rgba(0,0,0,0.52);
+border-bottom: 0px solid rgb(160, 157, 157) !important;
+}
+.nav-link{
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.active{
+  border-bottom: 3px solid rgb(65, 125, 182);
+  border-radius: 10px;
+}
+.pr .ps .active{
+  border-bottom: 0px;
+  border-radius: 0px;
+}
+.navbar-brand{
+  font-family: 'roboto','sans-serif';
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+
+/* ====================footer============================= */
+
+
+.footer{
+  color: white;
+  padding: 15px;
+  background:linear-gradient(to right,rgb(58, 58, 58),rgb(46, 46, 46),rgb(44, 44, 44),black) ;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: cadetblue;
+  border-bottom: 1px solid cadetblue;
+}
+
+/* ===========Page Not Found=============== */
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+ align-items: center;
+justify-content: center;
+  flex-direction: column;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-p{
+  font-weight: normal;
+}
+.pnf-button{
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  padding: 6px;
+  border-radius: 10px;
+
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+/* ========================Contact================================== */
+
+.contact{
+  height: 75vh;
+  background-color: aliceblue;
+  display: flex;
+}
+.contact-left{
+  width: 50%;
+  height: 100%;
+
+}
+.contact-right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-right h1{
+  background-color: black;
+  color: white;
+  width: 45vh;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.contact-right ul li{
+  list-style: none;
+  margin-top: 15px;
+  margin-left: -30px;
+}
+
+/* =======================About us ========================= */
+
+.Ab{
+  height: 75vh;
+  background-color: aliceblue;
+  display: flex;
+}
+.Ab .Ab-left{
+width: 50%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.Ab .Ab-left h1{
+  color: rgb(82, 81, 81);
+margin-bottom: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600;
+}
+
+.Ab .Ab-right{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.Ab .Ab-right p{
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* =============================Privacy Policy================================= */
+
+.Policy{
+  height: 75vh;
+  background-color: aliceblue;
+  display: flex;
+}
+.info li{
+  list-style: square;
+  font-weight: 600;
+}
+.Policy-left{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Policy-right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Policy-right h1{
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.Policy-right ul{
+  list-style: none;
+}
+.product-link{
+  text-decoration: none;
+  color: black !important;
+}
+.image-cover{
+  object-fit: contain;
+}
+.cat-btn {
+  padding: 40px 0px;
+  background-color: rgb(82, 139, 141);
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #f1f0f0;
+  font-size: 27px;
+  border: .1px solid;
+}
+.pr:active{
+border: none !important; 
+border-radius: 0 !important;
+border-width: 0 !important;
+}
+.prs:hover{
+ height: 220px;
+ transition: .4s;
+}
+.prst:hover{
+ height: 110px;
+ transition: .4s;
+}
+.banner{
+  height: 250px;
+  width: 100%;
+  transition: 1s;
+}
+
